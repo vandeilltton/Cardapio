@@ -1,0 +1,81 @@
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* cabeçalho */
+header {
+  background-color: #D2691E;
+  padding: 19px;
+ text-align: left;
+  font-size: 35px;
+  color: white;
+}
+
+/* Cria duas colunas / caixas que flutuam lado a lado */
+nav {
+  float: left;
+  width: 50%;
+  height: 398px; /
+  background: #f1f1f1;
+  padding: 10px;
+}
+
+/* Estilize a lista dentro do menu */
+nav ul {
+  list-style-type: none;
+  padding: 80px;
+
+}
+
+article {
+  float: left;
+  padding: 35px;
+  width: 50%;
+  background-color: #F4A460;
+  height: 400px; 
+}
+
+/*  flutuadores após as colunas */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 8px;
+  width: 10%px;
+
+}
+
+/*  rodapé */
+footer {
+  background-color: #777;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+table {
+            border-collapse: collapse;
+        }
+
+        table tr td, table tr th {
+            background-color: #F5DEB3;
+            width: 3%;
+            padding: 4px;
+            border: 2px solid #000000;
+
+        }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+
